@@ -1,0 +1,20 @@
+#popup {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+
+    background: black;
+    color: white;
+    font-family: Poppins;
+
+    animation: slide 0.25s ease-out
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-100px);
+    }
+}
